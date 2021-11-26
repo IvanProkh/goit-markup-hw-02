@@ -1,5 +1,5 @@
 :root {
-  --theme-color: #ff6c00;
+  --theme-color: #2196f3;
 
   --text-primary: #303030;
   --text-secondary: #555;
@@ -30,10 +30,14 @@ address {
 /* =========== Header styles starts here =========== */
 
 .nav-link {
+  position: absolute;
+  width: 1600px;
+  height: 80px;
 }
 
 .nav-link:hover,
 .nav-link:focus {
+  color: var(--theme-color);
 }
 
 .active-page {

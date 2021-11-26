@@ -1,9 +1,63 @@
+:root {
+  --theme-color: #ff6c00;
+
+  --text-primary: #303030;
+  --text-secondary: #555;
+  --text-secondary-lighter: #9da4bd;
+
+  --primary-font: 'Roboto';
+  --secondary-font: 'Raleway';
+  --third-font: 'Oleo Script';
+}
+
 body {
-  font-family: ;
+  font-family: var(--primary-font);
 }
 
 ul,
 ol {
   list-style: none;
 }
-/* ========== Heder styles starts here ========== */
+
+a {
+  text-decoration: none;
+}
+
+address {
+  font-style: normal;
+}
+
+/* =========== Header styles starts here =========== */
+
+.nav-link {
+}
+
+.nav-link:hover,
+.nav-link:focus {
+}
+
+.active-page {
+}
+
+.link-box-phone {
+}
+
+.primary-link {
+}
+
+.sidebar-link {
+}
+
+.sidebar-link:hover,
+.sidebar-link:focus {
+}
+
+.supheader {
+}
+
+.main-header {
+}
+.subheader {
+}
+
+/* =========== Header styles ends here =========== */

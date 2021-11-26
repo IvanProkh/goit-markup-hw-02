@@ -40,6 +40,8 @@ address {
   color: var(--theme-color);
 }
 
+/*=========== WebStudio ===========*/
+
 .page-header-logo {
   position: absolute;
   width: 145px;
@@ -54,6 +56,9 @@ address {
   line-height: 31px;
 
   letter-spacing: 0.03em;
+}
+page-header-logoWeb {
+  color: #2196f3;
 }
 
 .active-page {

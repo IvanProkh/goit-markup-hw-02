@@ -27,24 +27,26 @@ address {
 
 /* =========== Header styles starts here =========== */
 
-.page-header {
+/* .page-header {
   width: 1600px;
   height: 80px;
-}
+} */
 
-.nav-link {
+/* .nav-link {
   width: 1600px;
   height: 80px;
-}
+} */
 
 /* =========== WebStudio =========== */
 
 .page-header-logo {
-  position: absolute;
+  /* position: absolute;
   width: 145px;
   height: 31px;
   left: 215px;
-  top: 24px;
+  top: 24px; */
+  margin: 24px 93px 25px 215px;
+
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
@@ -67,6 +69,7 @@ address {
   height: 16px;
   left: 453px;
   top: 32px;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -80,6 +83,7 @@ address {
   height: 16px;
   left: 552px;
   top: 32px;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -93,6 +97,7 @@ address {
   height: 16px;
   left: 679px;
   top: 32px;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -156,4 +161,52 @@ address {
 .contacts-telephone:focus {
   color: var(--theme-color);
 }
-/* =========== Header styles ends here =========== */ ;
+/* =========== Header styles ends here =========== */
+
+/* =========== Hero-section =========== */
+
+.hero-section {
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+  background: #2f303a;
+}
+
+.hero-section-headline {
+  position: absolute;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.hero-section-button {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  position: absolute;
+  width: 136px;
+  height: 30px;
+  left: 732px;
+  top: 440px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}

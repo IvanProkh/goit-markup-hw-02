@@ -1,9 +1,10 @@
 :root {
   --theme-color: #2196f3;
+  --white-color: #ffffff
 
-  --text-primary: #303030;
-  --text-secondary: #555;
-  --text-secondary-lighter: #9da4bd;
+  --text-primary: #212121;
+  --text-secondary: #757575;
+  /* --text-secondary-lighter: #9da4bd; */
 
   --primary-font: 'Roboto';
   --secondary-font: 'Raleway';
@@ -27,19 +28,15 @@ address {
 
 /* =========== Header styles starts here =========== */
 
-/* .page-header {
+header {
   width: 1600px;
-  height: 80px;
-} */
-
-/* .nav-link {
-  width: 1600px;
-  height: 80px;
-} */
+  /* height: 80px; */
+  background-color: white;
+}
 
 /* =========== WebStudio =========== */
 
-.page-header-logo {
+.header-logo {
   /* position: absolute;
   width: 145px;
   height: 31px;
@@ -54,16 +51,25 @@ address {
   letter-spacing: 0.03em;
 }
 
-.page-header-logoWeb {
-  color: #2196f3;
+.header-logoWeb {
+  color: var(--theme-color);
 }
 
-.page-header-logoStudio {
+.header-logoStudio {
   color: #000000;
 }
 /* =========== Navigator=========== */
 
-.link-navigator-studio {
+.active-page {
+  color: var(--theme-color);
+}
+
+.navigator-link:hover,
+.navigator-link:focus {
+  color: var(--theme-color);
+}
+
+.studio {
   position: absolute;
   width: 49px;
   height: 16px;
@@ -74,10 +80,10 @@ address {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--text-primary);
 }
 
-.link-navigator-portfolio {
+.portfolio {
   position: absolute;
   width: 77px;
   height: 16px;
@@ -88,10 +94,10 @@ address {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--text-primary);
 }
 
-.link-navigator-contacts {
+.contacts {
   position: absolute;
   width: 68px;
   height: 16px;
@@ -102,25 +108,26 @@ address {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--text-primary);
 }
 
-.link-navigator-studio:hover,
-.link-navigator-studio:focus {
+.navigator-link:hover,
+.navigator-link:focus {
   color: var(--theme-color);
 }
 
-.link-navigator-portfolio:hover,
-.link-navigator-portfolio:focus {
+.navigator-studio:hover,
+.navigator-studio:focus {
   color: var(--theme-color);
 }
 
-.link-navigator-contacts:hover,
-.link-navigator-contacts:focus {
+.navigator-portfolio:hover,
+.navigator-portfolio:focus {
   color: var(--theme-color);
 }
 
-.active-page {
+.navigator-contacts:hover,
+.navigator-contacts:focus {
   color: var(--theme-color);
 }
 
@@ -136,9 +143,8 @@ address {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--text-secondary);
 }
-
 .contacts-telephone {
   position: absolute;
   width: 122px;
@@ -149,7 +155,7 @@ address {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--text-secondary);
 }
 
 .contacts-mail:hover,
@@ -165,7 +171,7 @@ address {
 
 /* =========== Hero-section =========== */
 
-.hero-section {
+.hero {
   width: 1600px;
   height: 600px;
   left: 0px;
@@ -173,7 +179,7 @@ address {
   background: #2f303a;
 }
 
-.hero-section-headline {
+.hero-headline {
   position: absolute;
   width: 696px;
   height: 120px;
@@ -188,25 +194,27 @@ address {
   color: #ffffff;
 }
 
-.hero-section-button {
+.button {
+}
+
+.button.primary {
+  color: #ffffff;
+  background: var(--theme-color);
+
   position: absolute;
   width: 200px;
   height: 50px;
   left: 700px;
   top: 430px;
-  background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-
   position: absolute;
   width: 136px;
   height: 30px;
   left: 732px;
   top: 440px;
-
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
 }

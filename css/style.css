@@ -4,10 +4,10 @@
 
   --text-primary: #212121;
   --text-secondary: #757575;
-  /* --text-secondary-lighter: #9da4bd; */
+ 
 
   --primary-font: 'Roboto';
-  --secondary-font: 'Raleway';
+  
 }
 
 body {
@@ -21,9 +21,6 @@ ol {
 
 a {
   text-decoration: none;
-}
-
-address {
 }
 
 /* =========== Header styles starts here =========== */
@@ -218,3 +215,7 @@ header {
   text-align: center;
   letter-spacing: 0.06em;
 }
+
+
+/* =========== section-list =========== */
+

@@ -7,7 +7,6 @@
 
   --primary-font: 'Roboto';
   --secondary-font: 'Raleway';
-  --third-font: 'Oleo Script';
 }
 
 body {
@@ -29,23 +28,16 @@ address {
 /* =========== Header styles starts here =========== */
 
 .page-header {
-  position: absolute;
   width: 1600px;
   height: 80px;
-  margin: 1600 80;
 }
 
-/* .nav-link {
-  position: absolute;
+.nav-link {
   width: 1600px;
   height: 80px;
-} */
-
-.nav-link:hover,
-.nav-link:focus {
 }
 
-/*=========== WebStudio ===========*/
+/* =========== WebStudio =========== */
 
 .page-header-logo {
   position: absolute;
@@ -67,78 +59,101 @@ address {
 .page-header-logoStudio {
   color: #000000;
 }
+/* =========== Navigator=========== */
 
-.link-pagination {
-  color: #212121;
-}
-
-.link-pagination-studio {
+.link-navigator-studio {
   position: absolute;
   width: 49px;
   height: 16px;
   left: 453px;
   top: 32px;
-
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  color: #212121;
 }
 
-.link-pagination-portfolio {
+.link-navigator-portfolio {
   position: absolute;
   width: 77px;
   height: 16px;
   left: 552px;
   top: 32px;
-
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  color: #212121;
 }
 
-.link-pagination-contacts {
+.link-navigator-contacts {
   position: absolute;
   width: 68px;
   height: 16px;
   left: 679px;
   top: 32px;
-
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  color: #212121;
 }
 
-.main .active-page {
+.link-navigator-studio:hover,
+.link-navigator-studio:focus {
+  color: var(--theme-color);
 }
 
-.link-box-phone {
+.link-navigator-portfolio:hover,
+.link-navigator-portfolio:focus {
+  color: var(--theme-color);
 }
 
-.primary-link {
+.link-navigator-contacts:hover,
+.link-navigator-contacts:focus {
+  color: var(--theme-color);
 }
 
-.sidebar-link {
+.active-page {
+  color: var(--theme-color);
 }
 
-.sidebar-link:hover,
-.sidebar-link:focus {
+/* =========== Contacts =========== */
+
+.contacts-mail {
+  position: absolute;
+  width: 135px;
+  height: 16px;
+  left: 1078px;
+  top: 32px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
 }
 
-.supheader {
+.contacts-telephone {
+  position: absolute;
+  width: 122px;
+  height: 16px;
+  left: 1263px;
+  top: 32px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
 }
 
-.main-header {
-}
-.subheader {
+.contacts-mail:hover,
+.contacts-mail:focus {
+  color: var(--theme-color);
 }
 
-/* =========== Header styles ends here =========== */
+.contacts-telephone:hover,
+.contacts-telephone:focus {
+  color: var(--theme-color);
+}
+/* =========== Header styles ends here =========== */ ;

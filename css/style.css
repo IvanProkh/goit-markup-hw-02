@@ -1,40 +1,55 @@
-/* =========== Header styles starts here =========== */
+:root {
+  --theme-color: #2196f3;
+  --second-color: #ffffff;
+  --logostudio-color: #000000;
+
+  --background-hero: #2f303a;
+  --background-section-list: #e5e5e5;
+
+  --text-primary: #212121;
+  --text-secondary: #757575;
+
+  --primary-font: 'Roboto';
+}
+
+body {
+  font-family: var(--primary-font);
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
 
 header {
-  width: 1600px;
-  /* height: 80px; */
-  background-color: white;
+  background-color: var(--second-color);
 }
+
+/* =========== Header styles starts here =========== */
 
 /* =========== WebStudio =========== */
 
 .header-logo {
-  /* position: absolute;
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 24px; */
-  margin: 24px 93px 25px 215px;
-
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
-.header-logoWeb {
+.header-logoweb {
   color: var(--theme-color);
 }
 
-.header-logoStudio {
-  color: #000000;
+.header-logostudio {
+  color: var(--logostudio-color);
 }
 /* =========== Navigator=========== */
-
-/* .active-page {
-  color: var(--theme-color);
-} */
 
 .navigator-link:hover,
 .navigator-link:focus {
@@ -46,43 +61,25 @@ header {
 }
 
 .studio {
-  position: absolute;
-  width: 49px;
-  height: 16px;
-  left: 453px;
-  top: 32px;
-
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--text-primary);
 }
 
 .portfolio {
-  position: absolute;
-  width: 77px;
-  height: 16px;
-  left: 552px;
-  top: 32px;
-
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--text-primary);
 }
 
 .contacts {
-  position: absolute;
-  width: 68px;
-  height: 16px;
-  left: 679px;
-  top: 32px;
-
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--text-primary);
 }
@@ -92,107 +89,115 @@ header {
   color: var(--theme-color);
 }
 
-.navigator-studio:hover,
-.navigator-studio:focus {
-  color: var(--theme-color);
-}
-
-.navigator-portfolio:hover,
-.navigator-portfolio:focus {
-  color: var(--theme-color);
-}
-
-.navigator-contacts:hover,
-.navigator-contacts:focus {
-  color: var(--theme-color);
-}
-
 /* =========== Contacts =========== */
 
 .contacts-mail {
-  position: absolute;
-  width: 135px;
-  height: 16px;
-  left: 1078px;
-  top: 32px;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--text-secondary);
 }
 .contacts-telephone {
-  position: absolute;
-  width: 122px;
-  height: 16px;
-  left: 1263px;
-  top: 32px;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--text-secondary);
 }
-
-.contacts-mail:hover,
-.contacts-mail:focus {
+.contact:hover,
+.contact:focus {
   color: var(--theme-color);
 }
 
-.contacts-telephone:hover,
-.contacts-telephone:focus {
-  color: var(--theme-color);
-}
 /* =========== Header styles ends here =========== */
 
 /* =========== Hero-section =========== */
 
 .hero {
-  width: 1600px;
-  height: 600px;
-  left: 0px;
-  top: 80px;
-  background: #2f303a;
+  background: var(--background-hero);
 }
 
 .hero-headline {
-  position: absolute;
-  width: 696px;
-  height: 120px;
-  left: 452px;
-  top: 280px;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--second-color);
 }
 
 .button {
 }
 
 .button.primary {
-  color: #ffffff;
-  background: var(--theme-color);
-
-  position: absolute;
-  width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 430px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  position: absolute;
-  width: 136px;
-  height: 30px;
-  left: 732px;
-  top: 440px;
-  display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  color: var(--second-color);
+  background: var(--theme-color);
 }
 
-/* =========== section-list =========== */
+/* =========== Section-list =========== */
+
+.section-list {
+  background: var(--background-section-list);
+}
+.list-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--text-primary);
+}
+
+.list-text {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--text-secondary);
+}
+
+/* =========== What are we doing =========== */
+
+.title-img {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-primary);
+}
+
+/* =========== Masters =========== */
+
+.title-masters {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-primary);
+}
+
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-primary);
+}
+
+.profession {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-secondary);
+}
+
+/* =========== Footer =========== */

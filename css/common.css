@@ -1,13 +1,11 @@
 :root {
   --theme-color: #2196f3;
-  --white-color: #ffffff
+  --white-color: #ffffff;
 
   --text-primary: #212121;
   --text-secondary: #757575;
- 
 
   --primary-font: 'Roboto';
-  
 }
 
 body {
@@ -21,4 +19,8 @@ ol {
 
 a {
   text-decoration: none;
+}
+
+header {
+  background-color: var(--white-color);
 }

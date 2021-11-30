@@ -190,7 +190,6 @@ header {
 }
 
 .profession {
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -208,7 +207,6 @@ header {
 
 .footer-logo {
   font-family: Raleway, sans-serif;
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
@@ -226,7 +224,6 @@ header {
 /* =========== Address =========== */
 
 .address {
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -234,7 +231,6 @@ header {
 }
 
 .footer-mail {
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -242,7 +238,6 @@ header {
 }
 
 .footer-telephone {
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -276,7 +271,6 @@ header {
 }
 
 .menu-link {
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;

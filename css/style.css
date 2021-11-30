@@ -253,3 +253,23 @@ header {
 }
 
 /* =========== Footer styles ends here =========== */
+
+/* =========== PORTFOLIO.HTML styles starts here =========== */
+
+.products-name {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: var(--text-primary);
+}
+
+.menu-link {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: var(--text-secondary);
+}
+
+/* =========== PORTFOLIO.HTML styles ends here =========== */

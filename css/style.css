@@ -129,9 +129,6 @@ header {
   color: var(--second-color);
 }
 
-.button {
-}
-
 .button.primary {
   align-items: center;
   text-align: center;
@@ -256,10 +253,24 @@ header {
 
 /* =========== PORTFOLIO.HTML styles starts here =========== */
 
+.navigator .portfolio.current {
+  color: var(--theme-color);
+}
+
+.portfolio-main {
+  background: var(--background-section-list);
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: var(--second-color);
+  background: var(--theme-color);
+}
+
 .products-name {
   font-weight: bold;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   letter-spacing: 0.06em;
   color: var(--text-primary);
 }
@@ -267,7 +278,7 @@ header {
 .menu-link {
   font-weight: normal;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--text-secondary);
 }

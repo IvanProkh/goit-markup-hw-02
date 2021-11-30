@@ -3,11 +3,12 @@
   --second-color: #ffffff;
   --logostudio-color: #000000;
 
-  --background-hero: #2f303a;
+  --background-first: #2f303a;
   --background-section-list: #e5e5e5;
 
   --text-primary: #212121;
   --text-secondary: #757575;
+  --text-third: rgba(255, 255, 255, 0.6);
 
   --primary-font: 'Roboto';
 }
@@ -115,7 +116,7 @@ header {
 /* =========== Hero-section =========== */
 
 .hero {
-  background: var(--background-hero);
+  background: var(--background-first);
 }
 
 .hero-headline {
@@ -147,7 +148,7 @@ header {
 .list-title {
   font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--text-primary);
@@ -155,7 +156,7 @@ header {
 
 .list-text {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--text-secondary);
 }
@@ -176,7 +177,7 @@ header {
 .title-masters {
   font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--text-primary);
@@ -185,7 +186,7 @@ header {
 .name {
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--text-primary);
@@ -194,10 +195,61 @@ header {
 .profession {
   font-weight: normal;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--text-secondary);
 }
 
-/* =========== Footer =========== */
+/* =========== Footer styles starts here =========== */
+
+.footer-section {
+  background: var(--background-first);
+}
+
+/* =========== Footer WebStudio =========== */
+
+.footer-logo {
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.footer-logoweb {
+  color: var(--theme-color);
+}
+
+.footer-logostudio {
+  color: var(--second-color);
+}
+
+/* =========== Address =========== */
+
+.address {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--second-color);
+}
+
+.footer-mail {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--text-third);
+}
+
+.footer-telephone {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--text-third);
+}
+
+/* =========== Footer styles ends here =========== */

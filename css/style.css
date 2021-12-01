@@ -31,6 +31,10 @@ header {
   background-color: var(--second-color);
 }
 
+button {
+  font-family: inherit;
+}
+
 /* =========== Header styles starts here =========== */
 
 /* =========== WebStudio =========== */

@@ -41,7 +41,6 @@ header {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  text-decoration: none;
 }
 
 .header-logoweb {
@@ -131,8 +130,6 @@ header {
 }
 
 .button.primary {
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   color: var(--second-color);
   background: var(--theme-color);

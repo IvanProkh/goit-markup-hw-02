@@ -65,7 +65,7 @@ button {
   color: var(--theme-color);
 }
 
-.navigator .studio.current {
+.navigator-link.current {
   color: var(--theme-color);
 }
 
@@ -207,7 +207,7 @@ button {
 
 /* =========== PORTFOLIO.HTML styles starts here =========== */
 
-.navigator .portfolio.current {
+.navigator-link.current {
   color: var(--theme-color);
 }
 

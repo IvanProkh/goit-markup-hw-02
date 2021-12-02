@@ -221,6 +221,10 @@ button {
   cursor: pointer;
 }
 
+.button-list li {
+  display: inline;
+}
+
 .products-name {
   font-weight: 700;
   font-size: 18px;

@@ -92,6 +92,8 @@ button {
 
 /* =========== Header styles ends here =========== */
 
+/* main */
+
 /* =========== Hero-section =========== */
 
 .hero {
@@ -119,6 +121,10 @@ button {
 }
 
 /* =========== Section-list =========== */
+
+.title-seo {
+  display: none;
+}
 
 .list-title {
   font-weight: 700;

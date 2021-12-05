@@ -127,6 +127,7 @@ button {
 }
 
 .list-title {
+  font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
 
@@ -227,7 +228,9 @@ button {
 }
 
 .portfolio-button {
+  font-size: 16px;
   cursor: pointer;
+  color: var(--text-primary);
 }
 
 .button-list li {
